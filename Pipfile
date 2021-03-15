@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+#viur
+viur-core={path="deploy/_packages/viur-core"}
+safeeval="0.0.5"
+
+#google
+google-cloud-datastore="1.10.0"
+google-cloud-logging="2.2.0"
+google-cloud-storage="1.35.1"
+google-cloud-tasks="2.0.0"
+google-cloud-iam="2.1.0"
+google-auth="1.21.1"
+
+#third party
+jinja2="2.11.0"
+webob="1.8.6"
+pillow="8.0.1"
+urlfetch="1.1.3"
+gunicorn="20.0.4"
+
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
