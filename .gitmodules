@@ -1,0 +1,3 @@
+[submodule "deploy/_packages/viur-core"]
+	path = deploy/_packages/viur-core
+	url = git@github.com:Xeon2003/viur-core.git
